@@ -19,7 +19,7 @@ async function checkAuth(path, params) {
             privateRoute.component(params);
             return;
         } else {
-            navigateTo("/home");
+            navigateTo("/");
         }
     } else {
         navigateTo("/login");
